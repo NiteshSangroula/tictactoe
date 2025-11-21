@@ -1,0 +1,18 @@
+[
+  {
+    "directory": "/absolute/path/to/tictactoe",
+    "command": "gcc -Iinclude -Wall -c src/main.c -o src/main.o",
+    "file": "src/main.c"
+  },
+  {
+    "directory": "/absolute/path/to/tictactoe",
+    "command": "gcc -Iinclude -Wall -c src/board.c -o src/board.o",
+    "file": "src/board.c"
+  },
+  {
+    "directory": "/absolute/path/to/tictactoe",
+    "command": "gcc -Iinclude -Wall -c src/game.c -o src/game.o",
+    "file": "src/game.c"
+  }
+]
+
